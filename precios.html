@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invie - Tu mejores de Guitarras..!</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta+Stencil" rel="stylesheet">
+<!--        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">-->
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+  <!--Header-->
+      <header id="header" class="header contenedor">
+        <!--logo-->
+        <figure class="logo">
+            <img src="img/invie.png" alt="Invie Logotipo" width="186" height="60"/>
+        </figure>
+        <!--menu-->
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#guitarras">Guitarra</a>
+                </li>
+                <li>
+                    <a href="precios.html">Precios</a>
+                </li>
+                <li>
+                    <a href="#">Ayuda</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <section class="tabla">
+           <div class="contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Precios</th>
+                            <th>Descripcion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td>Invie Classic</td> 
+                           <td>90000$</td> 
+                           <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat quidem minima ea nulla voluptates nihil iusto asperiores excepturi provident, recusandae expedita atque fugit alias eum optio modi reiciendis, earum.</td> 
+                        </tr>
+                        <tr>
+                           <td>Invie Classic</td> 
+                           <td>120000$</td> 
+                           <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat quidem minima ea nulla voluptates nihil iusto asperiores excepturi provident, recusandae expedita atque fugit alias eum optio modi reiciendis, earum.</td> 
+                        </tr>
+                        <tr>
+                           <td>Invie Classic</td> 
+                           <td>100000$</td> 
+                           <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat quidem minima ea nulla voluptates nihil iusto asperiores excepturi provident, recusandae expedita atque fugit alias eum optio modi reiciendis, earum.</td> 
+                        </tr>
+                    </tbody>
+                </table>
+           </div>
+           
+        </section>
+        <footer class="footer">
+            <div class="contenedor">
+                 <!--REFERECIAS-->
+                <div class="contacto">
+                    <img src="img/invie-white.png" alt="LogoTipo Blanco"/>
+                    <a href="tel:+50522457890"><strong>Teléfono</strong><span>2245-7890</span></a>
+                    <a href="mailto:marquezk@gmail.comm"><strong>E-mail</strong><span>marquezk@gmail.com</span></a>
+                </div>
+                <form class="formulario">
+                    <!--COLUMNA 1-->
+                    <div class="col1">
+                        <!--TEXTO-->
+                        <label for="nombre">Nombre:</label>
+                        <input id="nombre" type="text" name="nombre" required/>
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" name="email" required/>
+                        <!--RADIO-->
+                        <div class="sexo">
+                            <label for="mujer">
+                                <input id="mujer" checked type="radio" name="sexo" value="mujer"/>Mujer
+                            </label>
+                            <label for="hombre">
+                                <input id="hombre" type="radio" name="sexo" value="hombre"/>Hombre
+                            </label>
+                        </div>
+                        <!--CHECKBOX-->
+                        <div class="intereses"> 
+                            <label for="cotizacion">
+                                <input id="cotizacion" checked type="checkbox" name="intereses" value="cotizacion"/>Cotización     
+                            </label>
+                            <label for="reclamos">
+                                <input id="reclamos" type="checkbox" name="intereses" value="reclamos"/>Reclamos     
+                            </label>
+                            <label for="comentarios">
+                                <input id="comentarios" type="checkbox" name="intereses" value="comentarios"/>Comentarios     
+                            </label>
+                            <label for="otros">
+                                <input id="otros" type="checkbox" name="intereses" value="otros"/>Otros    
+                            </label>
+                        </div>
+                    </div>
+                    <!--COLUMNA 2-->
+                    <div class="col2">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea id="comentarios" name="comentarios" rows="5" cols="25"></textarea>
+                        <input class="button" type="submit"laa value="Enviar"/>
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
